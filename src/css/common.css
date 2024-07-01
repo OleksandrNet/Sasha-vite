@@ -1,5 +1,9 @@
 .game-xo {
 }
+.basicLightbox--visible .basicLightbox__placeholder {
+  transform: scale(1);
+  color: beige;
+}
 
 .game {
   background-image: linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, 0.2)),
