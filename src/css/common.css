@@ -1,0 +1,77 @@
+.game-xo {
+}
+
+.game {
+  background-image: linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, 0.2)),
+    url(../img/online-casino-gambling-chips-cards-with-aces-red-dices-laptop-keyboard-vertical-image_253401-887.avif);
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+
+.item {
+  width: 60px;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid black;
+  outline: auto;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.js-container {
+  display: flex;
+  border: none;
+  width: 250px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.js-start {
+  border-radius: 8px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  background-color: aquamarine;
+  color: rgb(255, 0, 0);
+  margin-top: 35px;
+}
+
+.container {
+  display: flex;
+  margin: 100px 50px 50px 50px;
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  grid-template-rows: repeat(3, 50px);
+  width: 150px;
+  margin: 0 auto;
+  gap: 2px;
+  /* border: 1px solid black; */
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: background 0.1s;
+  border-radius: 7px;
+}
+
+.item:hover {
+  background-color: #f1f1f10c;
+}
+
+.box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 30px;
+}

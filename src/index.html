@@ -4,21 +4,25 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Мій проект</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="iziToast.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css"
+    />
+
+    <title>My project</title>
   </head>
   <body>
-    <load ="partials/header.html" />
+    <script src="iziToast.min.js" type="text/javascript"></script>
+    <button>
+      <a href="./html/game.html">Тут ти можеш пограти в казино 😎</a>
+    </button>
+    <button>
+      <a href="./html/game-xo.html">А тут в хрестики-нулики 🫡</a>
+    </button>
 
-    <section>
-      <h1>Example page title</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
-
-    <script type="module" src="./main.js"></script>
+    <script src="./js/home.js" type="module"></script>
   </body>
 </html>
